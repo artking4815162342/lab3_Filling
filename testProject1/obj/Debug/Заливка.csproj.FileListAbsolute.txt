@@ -1,0 +1,7 @@
+C:\Users\artur\Desktop\Лаба 2\testProject1\bin\Debug\testProject1.exe
+C:\Users\artur\Desktop\Лаба 2\testProject1\bin\Debug\testProject1.pdb
+C:\Users\artur\Desktop\Лаба 2\testProject1\obj\Debug\testProject1.Form1.resources
+C:\Users\artur\Desktop\Лаба 2\testProject1\obj\Debug\testProject1.Properties.Resources.resources
+C:\Users\artur\Desktop\Лаба 2\testProject1\obj\Debug\Заливка.csproj.GenerateResource.Cache
+C:\Users\artur\Desktop\Лаба 2\testProject1\obj\Debug\testProject1.exe
+C:\Users\artur\Desktop\Лаба 2\testProject1\obj\Debug\testProject1.pdb
