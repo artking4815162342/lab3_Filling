@@ -113,6 +113,10 @@ namespace testProject1
         private void FillPicture(Point e, int x, int y, Color backColor)
         {
             // processing
+
+           // e.X += myPicture.Width / 2;
+          //  e.Y += myPicture.Height / 2;
+
             int x1 = e.X, x2 = e.X;
             int y1 = e.Y, y2 = e.Y;
             Color pixelColor = new Color();
@@ -145,7 +149,7 @@ namespace testProject1
             --x2;
             for (int i = x1; i < x2; ++i)
             {
-                bitmap.SetPixel(i, y1, myPicture.GetPixel(newX++ % myPicture.Width, y % myPicture.Height));
+                bitmap.SetPixel(i, y1, myPicture.GetPixel((myPicture.Width / 2 + newX++ ) % myPicture.Width, (myPicture.Height / 2 + y) % myPicture.Height));
             }
 
             for (int i = x1; i < x2; ++i)
@@ -328,6 +332,11 @@ namespace testProject1
             else if (a.point.Y < b.point.Y)
                 return -1;
             else return 1;
+        }
+
+        private void границаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

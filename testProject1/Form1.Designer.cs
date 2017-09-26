@@ -188,12 +188,13 @@
             this.границаToolStripMenuItem.Name = "границаToolStripMenuItem";
             this.границаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.границаToolStripMenuItem.Text = "Граница";
+            this.границаToolStripMenuItem.Click += new System.EventHandler(this.границаToolStripMenuItem_Click);
             // 
             // findToolStripMenuItem
             // 
             this.findToolStripMenuItem.CheckOnClick = true;
             this.findToolStripMenuItem.Name = "findToolStripMenuItem";
-            this.findToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
+            this.findToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.findToolStripMenuItem.Text = "Найти";
             this.findToolStripMenuItem.CheckedChanged += new System.EventHandler(this.findToolStripMenuItem_CheckedChanged);
             // 
